@@ -1,0 +1,218 @@
+body,
+.bg-blue {
+    font-family: 'Open Sans';
+    background-color: #101426;
+}
+
+.row {
+    margin: 0px !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 100%;
+    background-color: #101426;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #192038;
+}
+
+.bg-blue1 {
+    background-color: #192038;
+}
+
+.text-blue {
+    color: #101426;
+}
+
+.text-lightgreen {
+    color: #00d68f;
+}
+
+.slide {
+    height: 1000px !important;
+}
+
+header {
+    background-color: #192038;
+    box-shadow: 0.5rem 1rem 0 #1a1f33;
+}
+
+.menu {
+    background-color: #192038;
+}
+
+.b-start {
+    border-left: 1px solid#101426;
+}
+
+.b-full {
+    border: 1px solid #101426;
+}
+.bg-black{
+    background-color: #1d1f28;
+}
+.b-end {
+    border-right: 1px solid #101426;
+}
+
+.b-bottom {
+    border-bottom: 1px solid #101426;
+}
+
+.t-blue {
+    color: #3366ff;
+}
+
+.small-t {
+    font-size: 13px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.f-40 {
+    font-size: 30px;
+}
+
+.f-weight {
+    font-weight: 600;
+}
+
+.icon {
+    width: 92px;
+    height: 74px;
+    line-height: 74px;
+}
+
+.btn {
+    width: 138px;
+    height: 48px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+.card-body {
+    padding: 12px !important;
+}
+
+.accordion-button::after {
+    background-image: url('../img/down.png');
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #101426;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+i {
+    color: #c5cee0;
+}
+
+a,
+li,
+.accordion-button {
+    color: white;
+}
+
+a:hover,
+li:hover,
+.accordion-button:hover,
+i:hover {
+    color: #3366ff;
+}
+
+#container {
+    height: 248px !important;
+}
+
+#container-slide {
+    height: 240px !important;
+}
+
+.apexcharts-text tspan {
+    fill: white;
+}
+
+.apexcharts-legend-text,
+.apexcharts-legend-marker,
+.apexcharts-toolbar {
+    display: none !important;
+}
+
+#app {
+    padding: 0 !important;
+}
+
+.canvas {
+    height: 700px;
+}
+
+#data-zr-dom-id {
+    height: 500px !important;
+}
+
+.table {
+    height: 339px !important;
+}
+
+.table1,
+.tab1 {
+    height: 570px !important;
+}
+#container-chart{
+    height: 400px!important;
+}
+#container-chart canvas{
+    height: 400px!important;
+}
+
+.element.style {
+    height: 500px;
+}
+
+#container-round {
+    height: 400px !important;
+}
+
+#container-round canvas {
+    top: 50px !important;
+}
+
+.round{
+    height: 570px !important;
+}
+.map{
+    height: 570px!important;
+}
+.highcharts-background {
+    fill: #192038;
+}
+
+.highcharts-title,
+.highcharts-subtitle,
+.highcharts-axis-title,
+.highcharts-button-box,
+.highcharts-button-symbol {
+    display: none;
+}
+
+text {
+    fill: white !important;
+}
+
+
+footer i {
+    color: gray;
+}
+
+footer i:hover {
+    color: white;
+}

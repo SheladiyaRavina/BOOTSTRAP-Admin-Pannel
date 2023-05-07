@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Pannel</title>
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <link rel="stylesheet" href="css/font.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="shortcut icon" href="img/dj-mixer.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  <header class="py-2 row d-flex justify-content-center align-items-center shadow">
+    <div class="col-12 col-sm-12 col-xl-5  d-flex justify-content-start align-items-center">
+      <i class="bi bi-list px-3 h2 text-light"></i>
+      <h1 class="h4 text-light b-start  px-4">ngx-admin</h1>
+      <select class=" bg-blue text-light py-1 px-2 rounded-3 ms-4 border-primary">
+        <option class="bg-blue1 text-light b-bottom">Dark</option>
+        <option class="bg-blue1 text-light b-bottom">light</option>
+        <option class="bg-blue1 text-light b-bottom">Dark</option>
+        <option class="bg-blue1 text-light b-bottom">Cosmic</option>
+        <option class="bg-blue1 text-light b-bottom">Corporate</option>
+        <option class="bg-blue1 text-light b-bottom">Material Light</option>
+        <option class="bg-blue1 text-light b-bottom">Material Dark</option>
+      </select>
+    </div>
+    <div class="col-12 col-sm-12 col-xl-7 d-flex justify-content-end align-items-center">
+      <h5 class="h6 text-light m-0 px-3">Support us:</h5>
+      <button class="border-0 rounded-2 fw-bold me-1 small-t"><i class="bi bi-github px-1"></i>Star</button>
+      <button class="b-end me-4 border-0 fw-bold rounded-2 small-t">24,370</button>
+      <i class="bi bi-download text-white-50 b-start px-3"></i>
+      <h5 class="text-light px-3 m-0 h6 b-end px-3">470.000</h5>
+      <button class="px-3 bg-blue1 border-0 text-white-50 px-4"><i class="bi bi-envelope me-2"></i>
+        contact@akveo.com </button>
+      <i class="bi bi-search text-white-50 px-4 b-start"></i>
+      <i class="bi bi-envelope text-white-50 px-4 b-start"></i>
+      <i class="bi bi-bell text-white-50 px-4 b-start"></i>
+      <img src="img/nick.webp" width="38px" class="rounded-circle mx-3 b-start">
+      <h5 class="h6 text-light m-0 me-3"> Nick Jones</h5>
+    </div>
+  </header>
+
+  <section class="d-flex">
+    <div class="col-2 slide overflow-auto position-sticky top-0 bg-blue1">
+      <div class="menu  p-2">
+        <ul class="list-unstyled">
+          <li class="b-bottom py-3 ps-2">
+            <a href="#" class="text-decoration-none t-blue small-t f-weight "><i
+                class="bi bi-cart2 t-blue pe-2 "></i>E-commerce</a>
+          </li>
+          <li class="b-bottom py-3 ps-2">
+            <a href="#" class="text-decoration-none small-t f-weight"><i class="bi bi-house pe-2"></i>IoT Dashboard</a>
+          </li>
+          <li class="b-bottom py-3 ps-2">
+            <a href="#" class="text-decoration-none text-white-50 small-t fw-bold">FEATURES</a>
+          </li>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button bg-blue1 small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  <i class="bi bi-layout-text-window pe-3"></i> Layout
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">stepper</a></li>
+                    <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">List</a></li>
+                    <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Infinite
+                        List</a></li>
+                    <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Accordion</a>
+                    </li>
+                    <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Tabs</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed bg-blue1  small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  <i class="bi bi-pencil pe-3"></i>Forms
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Form Inputs</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Form Layouts</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Buttons</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Datepicker</a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed bg-blue1  small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-grid-3x3-gap pe-3"></i> UI Features
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Gird</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Icons</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Typography</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Animated
+                      Searches</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                <button class="accordion-button collapsed bg-blue1 small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-window pe-3"></i> Modal & Overlays
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfour">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Dialog</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Window</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Popover</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Toastr</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Tooltip</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed bg-blue1  small-t b-bottom f-weight " type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-chat-dots pe-3"></i>Extra Components
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Calendaer</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Progress Bar</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Spinner</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Alert</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Calendar Kit</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Chat</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed bg-blue1 small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-map pe-3"></i> Maps
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class="text-decoration-none small-t f-weight">Google Maps</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class="text-decoration-none small-t f-weight">Leaflet Maps</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class="text-decoration-none small-t f-weight">Bubble Maps</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class="text-decoration-none small-t f-weight">Search Maps</a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed bg-blue1 small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-pie-chart pe-3"></i>Charts
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Echarts</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Charts.js</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">D3</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed bg-blue1  small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="fa-solid fa-t pe-3"></i> Editors
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">TinyMCE</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">CKEditor</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed bg-blue1 small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-grid pe-3"></i> Tables & Data
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Smart Table</a>
+                  </li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Three Gird</a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed bg-blue1 small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-grid pe-3"></i> Miscellaneous
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">404</a></li>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item bg-blue1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingfive">
+                <button class="accordion-button collapsed bg-blue1  small-t b-bottom f-weight" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-bag-dash pe-3"></i> Auth
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingfive">
+                <div class="accordion-body">
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Home</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Home</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Home</a></li>
+                  <li class="b-bottom p-2"><a href="#" class=" text-decoration-none small-t f-weight">Home</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="col-10 pt-4 px-2">
+      <!-- button -->
+      <div class="row row-cols-1 row-cols-md-2 m-0">
+        <div class="col-12 col-xl-6">
+          <div class="card bg-blue1">
+            <div class="card-body d-flex justify-content-center align-items-center">
+              <div class="col-2">
+                <div class="icon rounded-3 bg-primary text-center"><i class="fa-solid fa-suitcase text-light f-40"></i>
+                </div>
+              </div>
+              <div class="col-7">
+                <h5 class="text-light  m-0">Hire us to customize ngx-admin</h5>
+              </div>
+              <div class="col-3 d-flex justify-content-end">
+                <button class="btn text-uppercase bg-danger bg-gradient border-0 h6 text-light m-0 me-2">Contant
+                  Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-6">
+          <div class="card bg-blue1">
+            <div class="card-body d-flex justify-content-center align-items-center">
+              <div class="col-2">
+                <div class="icon rounded-3 bg-primary text-center"><i class="fa-solid fa-suitcase text-light f-40"></i>
+                </div>
+              </div>
+              <div class="col-7">
+                <h5 class="text-light m-0">Documentation and customization articles</h5>
+              </div>
+              <div class="col-3 d-flex justify-content-end">
+                <button class="btn text-uppercase bg-danger bg-gradient border-0 h6 text-light m-0 me-2">Lern
+                  More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- profit -->
+      <section>
+        <div class="row">
+          <div class="col-12 col-xl-5 row pt-4">
+            <div class="col-12 col-sm-6 col-xl-6">
+              <div class="card bg-blue1 border-0 p-0">
+                <div class="card-body p-0">
+                  <div class="head p-2 bg-blue1 d-flex justify-content-between b-bottom">
+                    <h3 class="h6 m-0 text-light">$ Profit</h3>
+                    <img src="img/down.png" alt="">
+                  </div>
+                  <div id="container" style="height: 350px"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-6">
+              <div class="card  bg-blue1 border-0 p-0">
+                <div class="card-body p-0">
+                  <div class="head p-2 bg-blue1 d-flex justify-content-between b-bottom">
+                    <select class=" bg-blue text-light px-2 rounded-3 ms-4  border-0">
+                      <option>Bitcoin</option>
+                      <option>Tether</option>
+                      <option>Ethereum</option>
+                    </select>
+                    <img src="img/down.png" alt="">
+                  </div>
+                  <div id="container-slide" style="height: 350px"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 mt-4 mb-2">
+            <div class="table bg-blue1 rounded-3 overflow-auto b-full">
+              <table class="table f-15 text-white b-bottom">
+                <div class="thead text-light d-flex p-3 b-bottom">
+                  <div class="col-7">Traffic</div>
+                  <div class="col-5 d-flex justify-content-end">
+                    <select class="bg-blue text-light py-1 px-2 rounded-3 ms-4 border-0">
+                      <option class="bg-blue1 text-light b-bottom">week</option>
+                      <option class="bg-blue1 text-light b-bottom">month</option>
+                      <option class="bg-blue1 text-light b-bottom">year</option>
+                    </select>
+                    <img src="img/down.png" alt="">
+                  </div>
+                </div>
+                <tbody>
+                  <tr>
+                    <th scope="row" width="25%">Mon</th>
+                    <td width="25%">29</td>
+                    <td width="25%" class="text-lightgreen"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>60%
+                    </td>
+                    <td width="25%">
+                      <p class="m-0 text-muted small-t me-2">sun<i class="fa-solid fa-minus text-blue ms-2"></i></i><i
+                          class="bi bi-file-fill mx-2 text-lightgreen"></i>Mon</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="25%">Tue</th>
+                    <td width="25%">509</td>
+                    <td width="25%" class="text-danger"><i
+                        class="bi bi-caret-down-fill text-danger text-gradient me-1"></i>60%</td>
+                    <td width="25%">
+                      <p class="m-0 text-muted small-t me-2">sun</i><i
+                          class="bi bi-file-fill mx-2 text-danger text-gradient"></i><i
+                          class="fa-solid fa-minus text-blue me-2"></i>Mon</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="25%">wed</th>
+                    <td width="25%">990</td>
+                    <td width="25%" class="text-lightgreen"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>56%
+                    </td>
+                    <td width="25%">
+                      <p class="m-0 text-muted small-t me-2">sun<i class="fa-solid fa-minus text-blue ms-2"></i></i><i
+                          class="bi bi-file-fill mx-2 text-lightgreen"></i>Mon</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="25%">Tus</th>
+                    <td width="25%">83</td>
+                    <td width="25%" class="text-danger"><i
+                        class="bi bi-caret-down-fill text-danger text-gradient me-1"></i>62%</td>
+                    <td width="25%">
+                      <p class="m-0 text-muted small-t me-2">sun</i><i
+                          class="bi bi-file-fill mx-2 text-danger text-gradient"></i><i
+                          class="fa-solid fa-minus text-blue me-2"></i>Mon</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="25%">Fri</th>
+                    <td width="25%">31</td>
+                    <td width="25%" class="text-lightgreen"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>6%
+                    </td>
+                    <td width="25%">
+                      <p class="m-0 text-muted small-t me-2">sun<i class="fa-solid fa-minus text-blue ms-2"></i></i><i
+                          class="bi bi-file-fill mx-2 text-lightgreen"></i>Mon</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="25%">Sat</th>
+                    <td width="25%">127</td>
+                    <td width="25%" class="text-danger"><i
+                        class="bi bi-caret-down-fill text-danger text-gradient me-1"></i>5%</td>
+                    <td width="25%">
+                      <p class="m-0 text-muted small-t me-2">sun</i><i
+                          class="bi bi-file-fill mx-2 text-danger text-gradient"></i><i
+                          class="fa-solid fa-minus text-blue me-2"></i>Mon</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="25%">Sun</th>
+                    <td width="25%">670</td>
+                    <td width="25%" class="text-lightgreen"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>73%
+                    </td>
+                    <td width="25%">
+                      <p class="m-0 text-muted small-t me-2">sun<i class="fa-solid fa-minus text-blue ms-2"></i></i><i
+                          class="bi bi-file-fill mx-2 text-lightgreen"></i>Mon</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-xl-7 d-flex row pt-4 pb-2 b-full">
+            <div class="title bg-blue1 rounded-3 d-flex align-items-center">
+              <div class="col-6 b-bottom">
+                <h6 class="text-primary text-center h6  text-uppercase">Orders</h6>
+              </div>
+              <div class="col-6 b-bottom">
+                <h6 class="text-light text-center h6 text-uppercase">Profit</h6>
+              </div>
+            </div>
+            <div class="name d-flex bg-blue p-2 align-items-center">
+              <div class="col-3">
+                <p class="f-15 text-light text-center m-0">Marketplace</p>
+                <h4 class="h5 f-weight text-light text-center">3654</h4>
+              </div>
+              <div class="col-3">
+                <p class="f-15 text-light text-center m-0">Last Month</p>
+                <h4 class="h5 f-weight text-light text-center">946</h4>
+              </div>
+              <div class="col-3">
+                <p class="f-15 text-center text-light m-0">Last Week</p>
+                <h4 class="h5 f-weight text-light text-center">654</h4>
+              </div>
+              <div class="col-3">
+                <p class="f-15 text-center text-light m-0">Today</p>
+                <h4 class="h5 f-weight text-light text-center">230</h4>
+              </div>
+            </div>
+            <div class="chart bg-blue1 p-4 row rounded-3 d-flex">
+              <div class="col-8 d-flex ps-5">
+                <h3 class="text-center text-light h5 f-15 me-4"><i
+                    class="bi bi-square-fill text-lightgreen f-15 me-2"></i>Payment</h3>
+                <h3 class="text-center text-light h5 f-15 me-4"><i
+                    class="bi bi-square-fill text-primary f-15 me-2"></i>Canceled</h3>
+                <h3 class="text-center text-light h5 f-15 me-4"><i class="bi bi-square-fill text-blue f-15 me-2"></i>All
+                  orders</h3>
+              </div>
+              <div class="col-4 text-end">
+                <select class="bg-blue text-light px-2 py-1 rounded-3 ms-4 border-0">
+                  <option>week</option>
+                  <option>month</option>
+                  <option>year</option>
+                </select>
+              </div>
+              <div id="app"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gd-flex px-4 py-2 row">
+        <div class="col-9  bg-blue1 map mt-4">
+          <h3 class="text-light h4 fw-bold p-3">Country Orders Statistics</h3>
+          <div id="container-chart" style="height:100%"></div>
+        </div>
+
+        <div class="col-3 mt-4 p-3 bg-blue1">
+          <h5 class="text-light h6 m-0 pt-2">Today’s Profit</h5>
+          <h2 class="text-light h3 m-0 fw-bold">572,900</h2>
+          <div class="progress my-3 bg-blue">
+            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <p class="small-t text-muted">Better than last week (70%)</p>
+
+          <h5 class="text-light h6 m-0">New Orders</h5>
+          <h2 class="text-light h3 m-0 fw-bold">6,378</h2>
+          <div class="progress my-3 bg-blue">
+            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <p class="small-t text-muted">Better than last week (30%)</p>
+
+          <h5 class="text-light h6 m-0">New Comments</h5>
+          <h2 class="text-light h3 m-0 fw-bold">200</h2>
+          <div class="progress my-3 bg-blue">
+            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <p class="small-t text-muted">Better than last week (55%)</p>
+        </div>
+      </section>
+
+
+      <!-- round -->
+      <section class="gd-flex p-2 row">
+        <div class="col-9 row">
+          <div class="col-8 bg-blue1 map my-4">
+            <div class="title bg-blue1 p-3">
+              <h2 class="text-light">Visitors Analytics</h2>
+              <p class="text-muted f-15 m-0">Consumption</p>
+              <div class="d-flex py-3">
+                <h3 class="text-center text-light h5 f-15 me-4"><i
+                    class="bi bi-square-fill text-lightgreen f-15 me-2"></i>Unique Visitors</h3>
+                <h3 class="text-center text-light h5 f-15 me-4"><i
+                    class="bi bi-square-fill text-primary f-15 me-2"></i>Page Views</h3>
+              </div>
+            </div>
+            <figure class="highcharts-figure bg-blue1">
+              <div id="container-main2"></div>
+            </figure>
+          </div>
+          <div class="col-4 bg-blue1 round my-4">
+            <div class="title p-3">
+              <h2 class="text-light">1,100</h2>
+              <p class="text-muted m-0 f-15">New Visitors</p>
+            </div>
+            <div id="container-round" style="height: 100%"></div>
+          </div>
+        </div>
+
+        <div class="col-3 tab1 my-4">
+          <div class="table1 bg-blue1 rounded-3 overflow-auto b-full">
+            <table class="table f-15 text-white b-bottom">
+              <div class="thead text-light d-flex p-3 b-bottom">
+                <div class="col-7">User Activity</div>
+                <div class="col-5 d-flex justify-content-end">
+                  <select class="bg-blue text-light py-1 px-2 rounded-3 ms-4 border-0">
+                    <option class="bg-blue1 text-light b-bottom">month</option>
+                  </select>
+                </div>
+              </div>
+              <tbody>
+                <tr>
+                  <th scope="row" width="25%">1 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>490</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-lightgreen m-0"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>8%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">2 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>905</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-lightgreen m-0"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>82%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">3 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>452</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-lightgreen m-0"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>74%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">4 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>673</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-lightgreen m-0"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>79%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">5 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>875</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-danger text-gradient m-0"><i
+                        class="bi bi-caret-down-fill text-danger text-gradient me-1"></i>17%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">6 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>179</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-danger text-gradient m-0"><i
+                        class="bi bi-caret-down-fill text-danger text-gradient me-1"></i>65%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">7 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>296</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-lightgreen m-0"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>89%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">8 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>348</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-lightgreen m-0"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>91%</p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">9 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>826</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-danger text-gradient m-0"><i
+                        class="bi bi-caret-down-fill text-danger text-gradient me-1"></i>27%
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" width="25%">10 Apr</th>
+                  <td width="25%" class="text-lightgreen">
+                    <p class="text-muted m-0 small-t">Pages Visit</p>
+                    <h6>324</h6>
+                  </td>
+                  <td width="25%">
+                    <p class="m-0 text-muted small-t me-2">New visits, %</p>
+                    <p class="text-lightgreen m-0"><i class="bi bi-caret-up-fill text-lightgreen me-1"></i>65%</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+     <!-- footer -->
+      <footer class="py-4 bg-blue1 row shadow-lg">
+        <div class="col-6 d-flex align-items-center">
+          <h6 class="ps-2 text-light m-0">Created with ♥ by <a href="#" class="t-blue">Akveo </a> 2019. Made with <a
+              href="#" class="t-blue"> Nebular</a>.</h6>
+        </div>
+        <div class="col-6 d-flex justify-content-end">
+          <i class="bi bi-github mx-2 f-40"></i>
+          <i class="bi bi-facebook mx-2 f-40"></i>
+          <i class="bi bi-twitter mx-2 f-40"></i>
+          <i class="bi bi-linkedin mx-2 f-40"></i>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    var xAxisData = [];
+    var data1 = [];
+    var data2 = [];
+    for (var i = 0; i < 100; i++) {
+      xAxisData.push('A' + i);
+      data1.push((Math.sin(i / 5) * (i / 5 - 10) + i / 6) * 5);
+      data2.push((Math.cos(i / 5) * (i / 5 - 10) + i / 6) * 5);
+    }
+    option = {
+
+      tooltip: {},
+      xAxis: {
+        data: xAxisData,
+        splitLine: {
+          show: false
+        }
+      },
+      yAxis: {},
+      series: [
+        {
+          name: 'bar',
+          type: 'bar',
+          data: data1,
+          emphasis: {
+            focus: 'series'
+          },
+          animationDelay: function (idx) {
+            return idx * 10;
+          }
+        },
+        {
+          name: 'bar2',
+          type: 'bar',
+          data: data2,
+          emphasis: {
+            focus: 'series'
+          },
+          animationDelay: function (idx) {
+            return idx * 10 + 100;
+          }
+        }
+      ],
+      animationEasing: 'elasticOut',
+      animationDelayUpdate: function (idx) {
+        return idx * 5;
+      }
+    };
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+
+  <!-- <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script> -->
+  <script type="text/javascript">
+    var dom = document.getElementById('container-slide');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    const dataCount = 5e5;
+    const data = generateData(dataCount);
+    option = {
+
+
+
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow'
+        }
+      },
+      grid: {
+        bottom: 90
+      },
+      dataZoom: [
+        {
+          type: 'inside'
+        },
+        {
+          type: 'slider'
+        }
+      ],
+      xAxis: {
+        data: data.categoryData,
+        silent: false,
+        splitLine: {
+          show: false
+        },
+        splitArea: {
+          show: false
+        }
+      },
+      yAxis: {
+        splitArea: {
+          show: false
+        }
+      },
+      series: [
+        {
+          type: 'bar',
+          data: data.valueData,
+          // Set `large` for large data amount
+          large: true
+        }
+      ]
+    };
+    function generateData(count) {
+      let baseValue = Math.random() * 1000;
+      let time = +new Date(2011, 0, 1);
+      let smallBaseValue;
+      function next(idx) {
+        smallBaseValue =
+          idx % 30 === 0
+            ? Math.random() * 700
+            : smallBaseValue + Math.random() * 500 - 250;
+        baseValue += Math.random() * 20 - 10;
+        return Math.max(0, Math.round(baseValue + smallBaseValue) + 3000);
+      }
+      const categoryData = [];
+      const valueData = [];
+      for (let i = 0; i < count; i++) {
+        categoryData.push(
+          echarts.format.formatTime('yyyy-MM-dd\nhh:mm:ss', time, false)
+        );
+        valueData.push(next(i).toFixed(2));
+        time += 1000;
+      }
+      return {
+        categoryData: categoryData,
+        valueData: valueData
+      };
+    }
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+
+  <script>
+    window.Promise ||
+      document.write(
+        '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+      )
+    window.Promise ||
+      document.write(
+        '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+      )
+    window.Promise ||
+      document.write(
+        '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+      )
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/react@16.12/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@16.12/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prop-types@15.7.2/prop-types.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-apexcharts@1.3.6/dist/react-apexcharts.iife.min.js"></script>
+  <script src="js/highcharts.js"></script>
+  <script src="js/exporting.js"></script>
+  <script src="js/export-data.js"></script>
+  <script src="js/accessibility.js"></script>
+
+  <script>
+    var _seed = 42;
+    Math.random = function () {
+      _seed = _seed * 16807 % 2147483647;
+      return (_seed - 1) / 2147483646;
+    };
+  </script>
+
+  <script type="text/babel">
+    class ApexChart extends React.Component {
+      constructor(props) {
+        super(props);
+        this.state = {
+          series: [{
+            name: 'series1',
+            data: [31, 40, 28, 51, 42, 109, 100]
+          }, {
+            name: 'series2',
+            data: [11, 32, 45, 32, 34, 52, 41]
+          }],
+          options: {
+            chart: {
+              height: 350,
+              type: 'area'
+            },
+            dataLabels: {
+              enabled: false
+            },
+            stroke: {
+              curve: 'smooth'
+            },
+            xaxis: {
+              type: 'datetime',
+              categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+            },
+            tooltip: {
+              x: {
+                format: 'dd/MM/yy HH:mm'
+              },
+            },
+          },
+        };
+      }
+
+      render() {
+        return (
+          <div>
+            <div id="chart">
+              <ReactApexChart options={this.state.options} series={this.state.series} type="area" height={350} />
+            </div>
+            <div id="html-dist"></div>
+          </div>
+        );
+      }
+    }
+    const domContainer = document.querySelector('#app');
+    ReactDOM.render(React.createElement(ApexChart), domContainer);
+  </script>
+
+  <script type="text/javascript">
+    // Retrieved from https://www.ssb.no/jord-skog-jakt-og-fiskeri/jakt
+    Highcharts.chart('container-main2', {
+      subtitle: {
+        text: 'Source: <a href="https://www.ssb.no/jord-skog-jakt-og-fiskeri/jakt" target="_blank">SSB</a>',
+        align: 'left'
+      },
+      legend: {
+        layout: 'vertical',
+        align: 'left',
+        verticalAlign: 'top',
+        x: 120,
+        y: 70,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor:
+          Highcharts.defaultOptions.legend.backgroundColor || '#192038'
+      },
+      tooltip: {
+        shared: true,
+        headerFormat: '<b>Hunting season starting autumn {point.x}</b><br>'
+      },
+      credits: {
+        enabled: false
+      },
+      plotOptions: {
+        series: {
+          pointStart: 2000
+        },
+        areaspline: {
+          fillOpacity: 0.5
+        }
+      },
+      series: [{
+        name: 'Moose',
+        data:
+          [
+            38000,
+            37300,
+            37892,
+            38564,
+            36770,
+            36026,
+            34978,
+            35657,
+            35620,
+            35971,
+            36409,
+            36435,
+            34643,
+            34956,
+            33199,
+            31136,
+            30835,
+            31611,
+            30666,
+            30319,
+            31766
+          ]
+      }, {
+        name: 'Deer',
+        data:
+          [
+            22534,
+            23599,
+            24533,
+            25195,
+            25896,
+            27635,
+            29173,
+            32646,
+            35686,
+            37709,
+            39143,
+            36829,
+            35031,
+            36202,
+            35140,
+            33718,
+            37773,
+            42556,
+            43820,
+            46445,
+            50048
+          ]
+      }]
+    });
+
+  </script>
+  <!-- 
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script> -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container-round');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    option = {
+      tooltip: {
+        trigger: 'item'
+      },
+      legend: {
+        top: '5%',
+        left: 'center'
+      },
+      series: [
+        {
+          name: 'Access From',
+          type: 'pie',
+          radius: ['40%', '70%'],
+          avoidLabelOverlap: false,
+          label: {
+            show: false,
+            position: 'center'
+          },
+          emphasis: {
+            label: {
+              show: true,
+              fontSize: 40,
+              fontWeight: 'bold'
+            }
+          },
+          labelLine: {
+            show: false
+          },
+          data: [
+            { value: 0, name: 'Search Engine' },
+            { value: 2048, name: 'Direct' },
+            { value: 780, name: 'Email' },
+          ]
+        }
+      ]
+    };
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+
+
+ 
+<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
+<script type="text/javascript">
+  var dom = document.getElementById('container-chart');
+  var myChart = echarts.init(dom, null, {
+    renderer: 'canvas',
+    useDirtyRect: false
+  });
+  var app = {};
+  
+  var option;
+
+  option = {
+legend: {},
+tooltip: {},
+dataset: {
+  source: [
+    ['product', '2015', '2016', '2017'],
+    ['Matcha Latte', 43.3, 85.8, 93.7],
+    ['Milk Tea', 83.1, 73.4, 55.1],
+    ['Cheese Cocoa', 86.4, 65.2, 82.5],
+    ['Walnut Brownie', 72.4, 53.9, 39.1]
+  ]
+},
+xAxis: { type: 'category' },
+yAxis: {},
+// Declare several bar series, each will be mapped
+// to a column of dataset.source by default.
+series: [{ type: 'bar' }, { type: 'bar' }, { type: 'bar' }]
+};
+
+  if (option && typeof option === 'object') {
+    myChart.setOption(option);
+  }
+
+  window.addEventListener('resize', myChart.resize);
+</script>
+
+</body>
+
+</html>
